@@ -2,7 +2,7 @@
 title: "日本奥莱挖宝！ARPEGE 这3件直接带走不后悔"
 date: "2026-04-12"
 excerpt: "今天在奥莱逛到 ARPEGE，灰色立体纱裙、米色结构半裙、黑色针织——三件全部心动，直接打包带走！"
-cover: "/images/arpege-gray-skirt.jpg"
+cover: "/core/images/arpege-gray-skirt.svg"
 tags: ["日本奥莱", "ARPEGE", "战利品", "穿搭分享"]
 ---
 
@@ -14,7 +14,7 @@ tags: ["日本奥莱", "ARPEGE", "战利品", "穿搭分享"]
 
 ## 01 灰色立体纱裙
 
-![灰色立体纱裙](/images/arpege-gray-skirt.jpg)
+![灰色立体纱裙](/core/images/arpege-gray-skirt.svg)
 
 第一眼就被这条裙子钉住了。
 
@@ -26,7 +26,7 @@ tags: ["日本奥莱", "ARPEGE", "战利品", "穿搭分享"]
 
 ## 02 米色结构半裙
 
-![米色结构半裙](/images/arpege-beige-skirt.jpg)
+![米色结构半裙](/core/images/arpege-beige-skirt.svg)
 
 这条比第一条更「日常」一些，但细节非常讲究。
 
@@ -40,7 +40,7 @@ tags: ["日本奥莱", "ARPEGE", "战利品", "穿搭分享"]
 
 ## 03 黑色针织
 
-![黑色针织](/images/arpege-black-knit.jpg)
+![黑色针织](/core/images/arpege-black-knit.svg)
 
 看起来是最「普通」的一件，但拿近了看才发现细节有多好。
 
