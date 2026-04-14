@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { PostMeta, formatDate } from "@/lib/posts";
 
 interface PostCardProps {
@@ -11,8 +12,18 @@ export default function PostCard({ post, featured = false }: PostCardProps) {
     return (
       <Link href={`/blog/${post.slug}`} className="group block">
         <article className="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow border border-pink-50">
-          <div className="h-52 bg-gradient-to-br from-rose-100 to-pink-50 flex items-center justify-center">
-            <span className="text-6xl">👗</span>
+          <div className="h-52 bg-gradient-to-br from-rose-100 to-pink-50 relative">
+            {post.cover ? (
+              <Image
+                src={post.cover}
+                alt={post.title}
+                fill
+                className="object-cover"
+                unoptimized
+              />
+            ) : (
+              <span className="absolute inset-0 flex items-center justify-center text-6xl">👗</span>
+            )}
           </div>
           <div className="p-6">
             <div className="flex flex-wrap gap-2 mb-3">
@@ -41,8 +52,18 @@ export default function PostCard({ post, featured = false }: PostCardProps) {
   return (
     <Link href={`/blog/${post.slug}`} className="group block">
       <article className="bg-white rounded-xl p-5 shadow-sm hover:shadow-md transition-shadow border border-pink-50 flex gap-4">
-        <div className="w-16 h-16 bg-gradient-to-br from-rose-100 to-pink-50 rounded-lg flex items-center justify-center flex-shrink-0">
-          <span className="text-2xl">👗</span>
+        <div className="w-16 h-16 bg-gradient-to-br from-rose-100 to-pink-50 rounded-lg overflow-hidden relative flex-shrink-0">
+          {post.cover ? (
+            <Image
+              src={post.cover}
+              alt={post.title}
+              fill
+              className="object-cover"
+              unoptimized
+            />
+          ) : (
+            <span className="absolute inset-0 flex items-center justify-center text-2xl">👗</span>
+          )}
         </div>
         <div className="flex-1 min-w-0">
           <div className="flex flex-wrap gap-1 mb-1">
